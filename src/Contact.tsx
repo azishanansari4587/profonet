@@ -1,10 +1,10 @@
 'use client'
 
 import toast, { Toaster } from 'react-hot-toast'
-import Footer from '../components/Footer'
-import Header from '../components/Header'
-import NewsLetter from '../components/NewsLetter'
-import PartnerLogo from '../components/PartnerLogo'
+import Footer from './components/Footer'
+import Header from './components/Header'
+import NewsLetter from './components/NewsLetter'
+import PartnerLogo from './components/PartnerLogo'
 import { useRef } from 'react'
 
 
