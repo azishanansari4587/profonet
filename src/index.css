@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #003366;
+  --secondary-color: #4CAF50;
+  --accent-color: #FF5722;
+  --bg-color: #F1F5F9;
+  --text-color:#333333;
+  --highlight-color:'#3b82f6';
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
