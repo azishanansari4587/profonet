@@ -16,23 +16,23 @@ function App() {
       element:<Home/>
     },
     {
-      path:"contact",
+      path:"/contact",
       element:<Contact/>
     },
     {
-      path:"about",
+      path:"/about",
       element:<About/>
     },
     {
-      path:"services",
+      path:"/services",
       element:<Services/>
     },
     {
-      path:"solutions",
+      path:"/solutions",
       element:<Solutions/>
     },
     {
-      path:"getStarted",
+      path:"/getStarted",
       element:<GetStarted/>
     },
   ]);
