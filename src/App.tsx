@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import GetStarted from './pages/GetStarted';
-import Services from './pages/Services';
-import Solutions from './pages/Solutions';
+import Home from './Home';
+import Contact from './Contact';
+import About from './About';
+import GetStarted from './GetStarted';
+import Services from './Services';
+import Solutions from './Solutions';
 
 
 
