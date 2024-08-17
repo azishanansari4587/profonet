@@ -79,11 +79,13 @@ const Header = () => {
                                             </span>
                                         </Link>
                                     ))}
+                                    <Link to="/getStarted" type="button" className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50">
+                                        <span className="ml-3 text-base font-medium text-gray-900">Get Started</span> 
+                                    </Link>
                                 </nav>
+                                
                             </div>
-                            <Link to="/getStarted" type="button" className="mt-4 w-full rounded-md bg-secondaryColor px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accentColor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
-                                Get Started
-                            </Link>
+                            
                         </div>
                     </div>
                 </div>
