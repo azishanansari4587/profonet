@@ -45,11 +45,11 @@ const About = () => {
                         <p className=" text-xl text-start leading-8 lg:leading-loose  text-gray-500">
                             Our collaborative style of working encourages active involvement of client at every stage of the product life cycle through its inception, design and development to implementation with the help of certified professionals. Our cost efficient approach coupled with early adoption of leading edge yet effective technologies help us deliver quick-to-market solutions that drive up the bottom-line of our customers. Profonet Solutions by your side generates endless possibilities for the future of your organization products or services.
                         </p>
-                        <img
+                        {/* <img
                             alt=""
                             src="/image.jpg"
                             className="py-5 h-56 w-full object-cover sm:h-full"
-                        />
+                        /> */}
                     </div>
 
                 </div>

@@ -58,7 +58,7 @@ const Solutions = () => {
   return (
     <>
     <Header/>
-    <section className="relative w-full bg-[url(./image.jpg)] bg-center">
+    <section className="relative w-full bg-[url(/img.png)] bg-center">
       <div className="mx-auto max-w-screen-xl px-4 py-64 lg:flex lg:h-full lg:items-center">
             <div className="mx-auto max-w-7xl text-center">
                 <h1 className="mt-8 text-3xl font-bold tracking-tight text-bgColor md:text-4xl lg:text-6xl">
