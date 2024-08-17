@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 
@@ -15,7 +16,7 @@ const Banner = () => {
           <p className="mt-8 text-lg text-bgColor">
             IT innovation and committed in providing clients with the latest and greatest IT solutions.
           </p>
-          <a  href='/getStarted' className="mt-8 rounded-md bg-secondaryColor text-center py-3 text-sm font-semibold text-bgColor w-32 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black"> Get Started</a>
+          <Link  to='/getStarted' className="mt-8 rounded-md bg-secondaryColor text-center py-3 text-sm font-semibold text-bgColor w-32 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black"> Get Started</Link>
 
         </div>
         <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6">
