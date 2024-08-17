@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react"
+import { Link } from "react-router-dom"
 
 
 const WorkSteps = () => {
@@ -92,8 +93,8 @@ const WorkSteps = () => {
                 <div className="">
                     <h1 className="mx-auto text-center text-4xl text-black lg:text-6xl">We run all kinds of IT services that now your <span className="text-secondaryColor">success</span>.</h1>
                     <div className='flex place-content-center gap-4 '>
-                        <a href="/getStarted" className="mt-8 text-center rounded-md bg-secondaryColor py-5 text-sm font-semibold text-bgColor w-48 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black">Talk to Our Experts</a>
-                        <a href="/contact" className="mt-8 text-center rounded-md bg-accentColor py-5 text-sm font-semibold text-bgColor w-48 shadow-sm hover:bg-secondaryColor focus-visible:outline-2 focus-visible:outline-black">Contact Now</a>
+                        <Link to="/getStarted" className="mt-8 text-center rounded-md bg-secondaryColor py-5 text-sm font-semibold text-bgColor w-48 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black">Talk to Our Experts</Link>
+                        <Link to="/contact" className="mt-8 text-center rounded-md bg-accentColor py-5 text-sm font-semibold text-bgColor w-48 shadow-sm hover:bg-secondaryColor focus-visible:outline-2 focus-visible:outline-black">Contact Now</Link>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import {BriefcaseBusiness,MapPinned, BookMarked, BrickWall, AlarmClock, Heart } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 
 
@@ -62,8 +63,8 @@ const Service = () => {
             </div>
 
             <div className='flex place-content-center gap-4'> 
-                <a href='#' className="mt-8 rounded-md bg-secondaryColor text-center py-5 text-sm font-semibold text-bgColor w-48 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black">Talk to Our Experts</a>
-                <a href='/contact' className="mt-8 border rounded-md bg-transparent text-center py-5 text-sm font-semibold text-black w-48 shadow-sm hover:bg-accentColor hover:text-white focus-visible:outline-2 focus-visible:outline-black">Contact Now</a>
+                <Link to='#' className="mt-8 rounded-md bg-secondaryColor text-center py-5 text-sm font-semibold text-bgColor w-48 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black">Talk to Our Experts</Link>
+                <Link to='/contact' className="mt-8 border rounded-md bg-transparent text-center py-5 text-sm font-semibold text-black w-48 shadow-sm hover:bg-accentColor hover:text-white focus-visible:outline-2 focus-visible:outline-black">Contact Now</Link>
             </div>
         </div>
     </section>

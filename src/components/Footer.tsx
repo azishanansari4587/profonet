@@ -1,5 +1,7 @@
 // import { ChevronRight } from "lucide-react"
 
+import { Link } from "react-router-dom"
+
 
 
 const locations = [
@@ -42,28 +44,28 @@ const Footer = () => {
           <div className="container relative z-10 mx-auto px-4">
             <div className="-m-8 flex flex-wrap items-center justify-between">
               <div className="w-auto p-8">
-                <a href="#">
+                <Link to="#">
                   <div className="inline-flex items-center">
                     <span className="ml-4 text-2xl font-bold">Profonet Solution</span>
                   </div>
-                </a>
+                </Link>
               </div>
               <div className="w-auto p-8">
                 <ul className="-m-5 flex flex-wrap items-center">
                   <li className="p-5">
-                    <a className="font-medium text-gray-600 hover:text-gray-700" href="#">
+                    <Link className="font-medium text-gray-600 hover:text-gray-700" to="#">
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-5">
-                    <a className="font-medium text-gray-600 hover:text-gray-700" href="#">
+                    <Link className="font-medium text-gray-600 hover:text-gray-700" to="#">
                       Terms of Service
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-5">
-                    <a className="font-medium text-gray-600 hover:text-gray-700" href="#">
+                    <Link className="font-medium text-gray-600 hover:text-gray-700" to="#">
                       Return Policy
-                    </a>
+                    </Link>
                   </li>
                   <li className="p-5">
                     <a className="font-medium text-gray-600 hover:text-gray-700" href="#">
@@ -75,7 +77,7 @@ const Footer = () => {
               <div className="w-auto p-8">
                 <div className="-m-1.5 flex flex-wrap">
                   <div className="w-auto p-1.5">
-                    <a href="#">
+                    <Link to="#">
                       <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                         <svg
                           width="8"
@@ -90,10 +92,10 @@ const Footer = () => {
                           ></path>
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="w-auto p-1.5">
-                    <a href="#">
+                    <Link to="#">
                       <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                         <svg
                           width="14"
@@ -108,10 +110,10 @@ const Footer = () => {
                           ></path>
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="w-auto p-1.5">
-                    <a href="#">
+                    <Link to="#">
                       <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                         <svg
                           width="16"
@@ -126,14 +128,14 @@ const Footer = () => {
                           ></path>
                         </svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                   <div className="w-auto p-1.5">
-                    <a href="#">
+                    <Link to="#">
                       <div className="flex h-8 w-8 items-center justify-center rounded-full border border-gray-300 hover:border-gray-400">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-linkedin"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

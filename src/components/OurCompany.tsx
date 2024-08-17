@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const OurCompany = () => {
@@ -14,7 +15,7 @@ const OurCompany = () => {
           <p className="mt-8 text-lg text-textColor">
           Profonet takes into consideration every little detail to make sure the system run smoothly and responsively. Profonet employs a new technique called Minified Technology for securing customers’ database & building up highly confidential firewalls.
           </p>
-          <a href="/about"  className="mt-8 rounded-md text-center bg-secondaryColor py-3 text-sm font-semibold text-bgColor w-32 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black">About Us</a>
+          <Link to="/about"  className="mt-8 rounded-md text-center bg-secondaryColor py-3 text-sm font-semibold text-bgColor w-32 shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black">About Us</Link>
 
         </div>
         

@@ -1,5 +1,6 @@
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
+import { Link } from "react-router-dom";
 // import { Link } from "react-router-dom";
 
 
@@ -44,9 +45,9 @@ const Header = () => {
                 <ul className="inline-flex space-x-8">
                     {menuItems.map((item) => (
                         <li key={item.title}>
-                            <a href={item.path} className="text-sm font-semibold text-gray-800 hover:text-gray-900">
+                            <Link to={item.path} className="text-sm font-semibold text-gray-800 hover:text-gray-900">
                                 {item.title}
-                            </a>
+                            </Link>
                         </li>
                     ))}
                 </ul>
@@ -75,17 +76,17 @@ const Header = () => {
                             <div className="mt-6">
                                 <nav className="grid gap-y-4">
                                     {menuItems.map((item)=> (
-                                        <a key={item.title} href={item.path} className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50">
+                                        <Link key={item.title} to={item.path} className="-m-3 flex items-center rounded-md p-3 text-sm font-semibold hover:bg-gray-50">
                                             <span className="ml-3 text-base font-medium text-gray-900">
                                                 {item.title}
                                             </span>
-                                        </a>
+                                        </Link>
                                     ))}
                                 </nav>
                             </div>
-                            <a href="/getStarted" type="button" className="mt-4 w-full rounded-md bg-secondaryColor px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accentColor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                            <Link to="/getStarted" type="button" className="mt-4 w-full rounded-md bg-secondaryColor px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accentColor focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
                                 Get Started
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </div>
