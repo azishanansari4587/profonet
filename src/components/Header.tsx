@@ -53,7 +53,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="hidden lg:block">
-                <a href="/getStarted" className="rounded-md bg-secondaryColor px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black"> Get Started</a>
+                <Link to="/getStarted" className="rounded-md bg-secondaryColor px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accentColor focus-visible:outline-2 focus-visible:outline-black"> Get Started</Link>
             </div>
             <div className="lg:hidden">
                 <Menu onClick={toggleMenu} className="h-6 w-6 cursor-pointer"/>
