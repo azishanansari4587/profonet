@@ -1,8 +1,8 @@
 import React, { useRef } from "react"
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import NewsLetter from "./components/NewsLetter"
-import PartnerLogo from "./components/PartnerLogo"
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import NewsLetter from "../components/NewsLetter"
+import PartnerLogo from "../components/PartnerLogo"
 import toast, { Toaster } from "react-hot-toast"
 
 
