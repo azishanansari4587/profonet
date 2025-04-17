@@ -1,50 +1,45 @@
-# React + TypeScript + Vite
+# 🧠 Profonet – Business Landing Page Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Profonet** is a professional and responsive landing page website built to showcase a product/service-based business online. Designed with modern UI principles and developed using **Next.js** and **Tailwind CSS**, it ensures performance, responsiveness, and scalability.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [https://profonet-pi.vercel.app](https://profonet-pi.vercel.app)
 
-## Expanding the ESLint configuration
+## 🎯 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- ⚡ Fully responsive across all screen sizes
+- 🌐 SEO-friendly and optimized for performance
+- 🎨 Modern UI with clean layout
+- 🧩 Modular and reusable component structure
+- 🚀 Deployed on Vercel for fast and reliable delivery
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠 Tech Stack
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Frontend**: Next.js, React.js, Tailwind CSS
+- **Routing**: File-based routing (Next.js)
+- **Styling**: Tailwind CSS with utility-first approach
+- **Version Control**: Git + GitHub
+- **Deployment**: Vercel
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 📂 Folder Structure
+<pre>
+  ├── /public     # Static assets like images, icons, fonts, etc. 
+  ├── /components # Reusable UI components like Navbar, Hero, Footer, etc. 
+  ├── /pages      # Next.js pages (Home, Contact, etc.) 
+  ├── /styles     # Global styles and Tailwind configs 
+  ├── /data       # (Optional) JSON or JS files for dynamic content
+</pre>
+![Profonet_Screenshot1](https://github.com/user-attachments/assets/ef455d2e-9a0d-4725-bc8a-c520cf00a9d5)
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🧾 Getting Started
+
+To run this project locally:
+
+```bash
+git clone https://github.com/your-username/profonet.git
+cd profonet
+npm install
+npm run dev
+
